@@ -36,3 +36,14 @@ body {
 
 .green {
   color: #35A853; }
+
+code {
+  color: #FCBD04; }
+
+a {
+  color: #35A853;
+  -webkit-transition: 300ms all ease-in-out;
+  transition: 300ms all ease-in-out;
+  text-decoration: none; }
+  a:hover {
+    color: #EC4335; }
