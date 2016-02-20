@@ -41,6 +41,12 @@ main {
 .green {
   color: #35A853; }
 
+.e {
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+  display: inline-block;
+  margin-left: -5px; }
+
 code {
   color: #FCBD04; }
 
