@@ -24,9 +24,12 @@ html(lang="en")
       p the font isn't on 
         a(href="https://www.google.com/fonts") Google Fonts
         |  but it does use the same api and is available using
-      code @import url(https://fonts.googleapis.com/css?family=Product+Sans);
+      code @import url("https://fonts.googleapis.com/css?family=Product+Sans");
       p and then you just need to tell css to use the fonts
       code body { font-family: "Product Sans" }
+
+      p or simply
+      code @import url("https://mcansh.github.io/google-logo-font/css/google-logo-font.sass")
     footer
       a(href="https://github.com/mcansh/google-logo-font") View project on GitHub
     
